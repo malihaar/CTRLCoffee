@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">CTRL + Coffee</string>
+    <string name="squidy">squidy</string>
+    <string name="email_display_here">email</string>
+    <string name="logout_google_account">logout</string>
+    <string name="name_display_here">name</string>
+    <string name="bn_logout">TODO</string>
+    <string name="ButtonMap">TODO</string>
+    <string name="Information">Information</string>
+    <string name="MusicButton">MusicButton</string>
+    <string name="InfoButton">TODO</string>
+    <string name="play_video1">Play Video</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="button">Button</string>
+    <string name="play_video">Play Video</string>
+
+</resources>

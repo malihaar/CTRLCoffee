@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1082920930021",
+    "firebase_url": "https://coffee-app-224518.firebaseio.com",
+    "project_id": "coffee-app-224518",
+    "storage_bucket": "coffee-app-224518.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1082920930021:android:807ec034607f778d",
+        "android_client_info": {
+          "package_name": "com.example.athiya.ctrlcoffee"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1082920930021-2s78vnnufq3g36gs2f5orhln3iuh1hmj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.athiya.ctrlcoffee",
+            "certificate_hash": "ad9e5b04170322869ebe33d99b5025773acb6ff8"
+          }
+        },
+        {
+          "client_id": "1082920930021-pgm5otpng0f3smvldohcfdmr93i212vk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBqlLuKc-sRca8cShDwxclUDNw0cjKBKrM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1082920930021-pgm5otpng0f3smvldohcfdmr93i212vk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

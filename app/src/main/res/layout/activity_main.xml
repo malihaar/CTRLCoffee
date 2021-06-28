@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/blank"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/prof_section"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="20dp">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="90dp"
+            android:layout_height="110dp"
+            android:contentDescription="@string/squidy"
+            app:srcCompat="@drawable/squidy" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="28dp"
+            android:orientation="vertical"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="28dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/name_display_here"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:id="@+id/name"
+                android:gravity="center"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/email_display_here"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                android:id="@+id/email"
+                android:layout_marginTop="10dp"
+                android:gravity="center"/>
+
+
+
+            <ImageView
+                android:id="@+id/bn_logout"
+                android:layout_width="110dp"
+                android:layout_height="50dp"
+                app:srcCompat="@drawable/bsingout"
+                android:onClick="onClick"
+                android:contentDescription="@string/bn_logout" />
+
+
+        </LinearLayout>
+    </LinearLayout>
+    <com.google.android.gms.common.SignInButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="50dp"
+        android:id="@+id/bn_login"
+        ></com.google.android.gms.common.SignInButton>
+
+    <ImageView
+        android:id="@+id/map"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:onClick="onClick"
+        android:contentDescription="@string/ButtonMap"
+        app:srcCompat="@drawable/bfind"
+        />
+
+    <ImageView
+        android:id="@+id/info"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/binfo"
+        android:onClick="onClick"
+        android:contentDescription="@string/InfoButton" />
+
+    <ImageView
+        android:id="@+id/music"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:contentDescription="@string/MusicButton"
+        app:srcCompat="@drawable/bmusic"
+        android:onClick="music"/>
+
+
+
+</LinearLayout>
